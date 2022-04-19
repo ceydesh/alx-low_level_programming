@@ -26,7 +26,8 @@ int main(void)
 
 		k = j;
 		j += i;
-		i = k;								          count++;
+		i = k;
+		count++;
 	}
 
 	return (0);
