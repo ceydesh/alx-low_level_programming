@@ -4,12 +4,13 @@
 /**
  * free_list - frees a linked list
  * @head: list_t list to be freed
+ * Return: void
  */
 void free_list(list_t *head)
 {
-i	list_t *temp;
+	list_t *temp;
 
-	while (head != NULL)
+	while (head)
 	{
 		temp = head->next;
 		free(head->str);
